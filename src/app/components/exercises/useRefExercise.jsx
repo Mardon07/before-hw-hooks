@@ -4,7 +4,8 @@ const UseRefExercise = () => {
     const text = useRef();
     const handleChange = () => {
         text.current.textContent = "text";
-        text.current.style = { height: 150, width: 80, color: "white" };
+        text.current.style.width = "80px";
+        text.current.style.height = "150px";
     };
 
     return (
